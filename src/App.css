@@ -1,0 +1,30 @@
+.app {
+  background-color: #dadbd3;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app__body {
+  display: flex;
+  background-color: #ededed;
+  width: 90vw;
+  height: 90vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.app__bottomContainer > p {
+  position: absolute;
+  color: rgb(75, 75, 75);
+  bottom: 5px;
+  left: 10px;
+  font-size: 0.8rem;
+  /* transform: translate(-50%, -50%); */
+  text-align: center;
+}
+.MuiSvgIcon-root {
+  color: #18b652;
+}
+.MuiSvgIcon-root:hover {
+  color: rgb(206, 31, 31);
+}

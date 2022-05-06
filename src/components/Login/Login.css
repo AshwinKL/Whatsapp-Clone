@@ -1,0 +1,74 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__container {
+  text-align: center;
+  background-color: white;
+  padding: 8rem 5rem;
+  border-radius: 10px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 80%;
+  max-width: 80%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.login__container > img {
+  object-fit: contain;
+  height: 110px;
+  margin-bottom: 2rem;
+}
+
+.login__container .login__button {
+  margin: 1.5rem 0;
+}
+.login__container .login__button:hover {
+  transform: scale(1.03);
+}
+
+.login__text > h1 {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  font-family: inherit;
+  color: rgb(61, 61, 61);
+  font-weight: 400;
+}
+.login__text > h1 > p {
+  text-transform: capitalize;
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+  color: rgb(78, 78, 78);
+}
+
+.login__text > h1 > span {
+  color: #18b652;
+  text-transform: uppercase;
+}
+.login__container > p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  font-family: inherit;
+  color: gray;
+}
+.login__container > p > a {
+  text-decoration: none;
+  color: #18b652;
+  font-size: 1rem;
+}
+
+/* .login__buttonContainer {
+  max-width: 90%;
+} */
+
+@media only screen and(max-width:500px) {
+  .login__container .login__button {
+    height: 1rem;
+  }
+}

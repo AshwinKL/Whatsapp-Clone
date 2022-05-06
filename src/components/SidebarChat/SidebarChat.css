@@ -1,0 +1,34 @@
+.sidebarChat {
+  display: flex;
+  padding: 1.5rem;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.sidebarChat:hover {
+  background-color: #dadbd3;
+}
+.sidebarChat h2 {
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+  color: #111;
+}
+.sidebarChat p {
+  font-size: 0.9rem;
+  color: gray;
+}
+.sidebarChat__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 0.5rem;
+  max-width: 50%;
+}
+.sidebarChat > button {
+  z-index: 10;
+}

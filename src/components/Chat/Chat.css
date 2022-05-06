@@ -1,0 +1,57 @@
+.chat {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.chat__header {
+  display: flex;
+  padding: 1rem;
+  border-bottom: 1px solid lightgray;
+  justify-content: center;
+  align-items: center;
+}
+.chat__headerInfo {
+  margin: 0 2rem;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.chat__headerInfo > h3 {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #111;
+}
+.chat__headerInfo > p {
+  color: gray;
+  font-size: 0.8rem;
+}
+.chat__body {
+  background: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  background-repeat: repeat;
+  flex: 1;
+  overflow: scroll;
+}
+.chat__body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+.chat__body::-webkit-scrollbar {
+  display: none;
+}
+.chat__toggler {
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: #8686866b;
+  width: fit-content;
+}
